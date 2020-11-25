@@ -2,10 +2,10 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/main.scss",
+        "../sass/portfolio.scss",
         "../sass/utils/_variables.scss",
         "../sass/utils/_plaseholders.scss"
     ],
     "names": [],
-    "file": "main.min.css"
+    "file": "portfolio.min.css"
 }
