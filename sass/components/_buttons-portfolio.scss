@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-cl);
+    border-radius: 4px;
+    background-color: var(--bg-section-cl);
+    padding: 0px;
+    margin-right: 8px;
+    border: 0px;
+    transition: background-color var(--time-transition);
+}
+
+.but-list .btn:hover,
+.btn:focus{
+    background-color: var(--accent-cl);
+    cursor: pointer;
+}
