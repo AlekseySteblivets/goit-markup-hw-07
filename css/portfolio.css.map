@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": ";AEAA,8HAA8H",
+    "mappings": ";AEAA,8HAA8H;ACA9H,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;EACtB,KAAK,EFMM,OAAO;CELrB",
     "sources": [
         "../sass/portfolio.scss",
         "../sass/utils/_variables.scss",
-        "../sass/utils/_plaseholders.scss"
+        "../sass/utils/_plaseholders.scss",
+        "../sass/base/_base-styles.scss"
     ],
     "names": [],
     "file": "portfolio.css"

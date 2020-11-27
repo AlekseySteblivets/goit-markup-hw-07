@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,AAAA,IAAI,AAAA,CACA,WAAW,CAAE,oBAAoB,CACjC,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CACtB,KAAK,CFMM,OAAO,CELrB",
     "sources": [
         "../sass/main.scss",
         "../sass/utils/_variables.scss",
-        "../sass/utils/_plaseholders.scss"
+        "../sass/utils/_plaseholders.scss",
+        "../sass/base/_base-styles.scss"
     ],
     "names": [],
     "file": "main.min.css"
