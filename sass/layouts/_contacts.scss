@@ -1,0 +1,29 @@
+.section-contacts {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--wight-text-cl);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.section-contacts h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.section-contacts p {
+    margin-bottom: 9px;
+    margin-top: 0px;
+}
+
+.section-contacts .container {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

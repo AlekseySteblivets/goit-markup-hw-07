@@ -1,0 +1,10 @@
+.dark-bg {
+    background-color: var(--bg-dark-cl);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dark-bg .list .link {
+    color: rgba(255, 255, 255, 0.6);
+}

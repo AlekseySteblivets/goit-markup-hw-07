@@ -20,3 +20,31 @@
     background-color: var(--accent-cl);
     cursor: pointer;
 }
+
+.but-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+
+.text-but-portfolio:hover,
+.text-but-portfolio:focus{
+    color: var(--wight-text-cl);
+}
+
+.text-but-portfolio {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-cl);
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    transition: color var(--time-transition);
+}

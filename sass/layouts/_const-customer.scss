@@ -1,0 +1,74 @@
+.title-const-customer {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-cl);
+    padding-top: 94px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.link-const-customer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--icons-color);
+    border-radius: 4px;
+    transition: border var(--time-transition);
+}
+
+.list-const-customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-const-customer:hover .item-logo,
+.link-const-customer:focus .item-logo {
+    fill: var(--accent-cl);
+}
+
+.link-const-customer:hover {
+    border: 1px solid  var(--accent-cl);
+}
+
+
+.item-logo {
+    align-items: center;
+    fill: var(--icons-color);
+    transition: fill var(--time-transition);
+}
+
+.item-logo1 {
+    Width: 44.27px;
+    Height: 49.23px;
+}
+
+.item-logo2 {
+    Width: 40px;
+    Height: 52px;
+}
+
+.item-logo3 {
+    Width: 41px;
+    Height: 42.6px;
+}
+
+.item-logo4 {
+    Width: 79.66px;
+    Height: 42.02px;
+}
+
+.item-logo5 {
+    Width: 59px;
+    Height: 47px;
+}
+
+.item-logo6 {
+    Width: 88.48px;
+    Height: 45.04px;
+}

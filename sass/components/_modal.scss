@@ -55,3 +55,29 @@
 .close-btn:hover .close-icon {
     fill: var(--accent-cl);
 }
+
+.title-modal {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-cl);
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.modal-icons-svg {
+    position: absolute;
+    top: 38px;
+    left: 50px;
+    width: 18px;
+    height: 18px;
+    fill: var(--title-text-cl);
+    transition: fill var(--time-transition);  
+}
+
+.modal-blocks {
+    position: relative;
+}
