@@ -1,13 +1,13 @@
 .social-icons-svg {
     width: 20px;
     height: 20px;
-    fill: var(--icons-color);
-    transition: fill var(--time-transition);  
+    fill: $icons-color;
+    transition: fill $time-transition;  
 
 }
 
 .futer-social .social-icons-svg {
-    fill: var(--wight-text-cl); 
+    fill: $wight-text-cl; 
 }
 
 .social-icons {
@@ -27,19 +27,19 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    transition: background-color var(--time-transition);  
+    transition: background-color $time-transition;  
     
 }
 .futer-social .social-icons-border {
-    background-color: var(--bg-futer-icons-link) ;
+    background-color: $bg-futer-icons-link ;
 
 }
 
 .social-icons-border:hover .social-icons-svg,
 .social-icons-border:focus .social-icons-svg {
-    fill: var(--wight-text-cl);
+    fill: $wight-text-cl;
 }
 
 .social-icons-border:hover {
-    background-color: var(--accent-cl);
+    background-color: $accent-cl;
 }

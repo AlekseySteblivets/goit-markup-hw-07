@@ -5,7 +5,7 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-cl);
+    color: $title-text-cl;
     padding-top: 94px;
     margin-top: 0px;
     margin-bottom: 50px;
@@ -17,9 +17,9 @@
     justify-content: center;
     width: 170px;
     height: 90px;
-    border: 1px solid var(--icons-color);
+    border: 1px solid $icons-color;
     border-radius: 4px;
-    transition: border var(--time-transition);
+    transition: border $time-transition;
 }
 
 .list-const-customer {
@@ -29,18 +29,18 @@
 
 .link-const-customer:hover .item-logo,
 .link-const-customer:focus .item-logo {
-    fill: var(--accent-cl);
+    fill: $accent-cl;
 }
 
 .link-const-customer:hover {
-    border: 1px solid  var(--accent-cl);
+    border: 1px solid  $accent-cl;
 }
 
 
 .item-logo {
     align-items: center;
-    fill: var(--icons-color);
-    transition: fill var(--time-transition);
+    fill: $icons-color;
+    transition: fill $time-transition;
 }
 
 .item-logo1 {

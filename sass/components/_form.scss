@@ -20,7 +20,7 @@
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    transition: border-color var(--time-transition);
+    transition: border-color $time-transition;
 }
 
 .form-textarea {
@@ -35,7 +35,7 @@
     padding: 12px 16px;
     outline: none;
     cursor: pointer;
-    transition: border-color var(--time-transition);
+    transition: border-color $time-transition;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.14;
@@ -44,14 +44,14 @@
 }
 
 .form-input:focus + .modal-icons-svg {
-    fill: var(--accent-cl);
+    fill: $accent-cl;
 }
 
 .form-input:focus,
 .form-input:hover,
 .form-textarea:focus,
 .form-textarea:hover {
-    border-color: var(--accent-cl);
+    border-color: $accent-cl;
 }
 
 .check-class {
@@ -78,9 +78,9 @@
 }
 
 .check-class:checked + .checkbox-icon {
-    background-color: var(--accent-cl);
+    background-color: $accent-cl;
     background-image: url(../images/check-active.svg);
-    /* fill: var(--accent-cl); */
+    /* fill: $accent-cl; */
     background-size: cover;
     
 }
@@ -97,6 +97,6 @@
 }
 
 .color-check-text {
-    color: var(--accent-cl);
+    color: $accent-cl;
     text-decoration: underline;
 }

@@ -1,5 +1,5 @@
 .dark-bg-hero {
-    background-color: var(--bg-dark-cl);
+    background-color: $bg-dark-cl;
     width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -32,7 +32,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    color: var(--wight-text-cl);
+    color: $wight-text-cl;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -47,7 +47,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--wight-text-cl);
+    color: $wight-text-cl;
     padding-top: 200px;
     padding-right: 452px;
     padding-left: 452px;

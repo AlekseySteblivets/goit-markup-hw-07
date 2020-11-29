@@ -5,7 +5,7 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-cl);
+    color: $title-text-cl;
     margin-bottom: 50px;
     margin-top: 0px; 
 }
@@ -40,7 +40,7 @@
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
-    color: var(--wight-text-cl);
+    color: $wight-text-cl;
     margin: 0px;
     padding-top: 27px;
     padding-bottom: 27px;

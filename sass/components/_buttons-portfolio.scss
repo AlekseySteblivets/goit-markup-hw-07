@@ -6,18 +6,18 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-cl);
+    color: $title-text-cl;
     border-radius: 4px;
-    background-color: var(--bg-section-cl);
+    background-color: $bg-section-cl;
     padding: 0px;
     margin-right: 8px;
     border: 0px;
-    transition: background-color var(--time-transition);
+    transition: background-color $time-transition;
 }
 
 .but-list .btn:hover,
 .btn:focus{
-    background-color: var(--accent-cl);
+    background-color: $accent-cl;
     cursor: pointer;
 }
 
@@ -30,7 +30,7 @@
 
 .text-but-portfolio:hover,
 .text-but-portfolio:focus{
-    color: var(--wight-text-cl);
+    color: $wight-text-cl;
 }
 
 .text-but-portfolio {
@@ -41,10 +41,10 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-cl);
+    color: $title-text-cl;
     padding-top: 6px;
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
-    transition: color var(--time-transition);
+    transition: color $time-transition;
 }

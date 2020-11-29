@@ -4,7 +4,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-text-cl);
+    color: $main-text-cl;
 }
 
 html {
@@ -27,14 +27,14 @@ img {
 .link{
     text-decoration: none;
     color: inherit;
-    transition: color var(--time-transition);
+    transition: color $time-transition;
 }
 
 .link:hover,
 .link:focus
 /* .btn:hover,
 .btn:focus { */ {
-    color: var(--accent-cl);
+    color: $accent-cl;
 }
 
 

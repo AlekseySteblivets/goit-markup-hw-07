@@ -28,7 +28,7 @@
     margin-right: 10px;
     background-size: contain;
     background-position: center;
-    transition: fill var(--time-transition);    
+    transition: fill $time-transition;    
 }
 
 .smartphone-svg {
@@ -38,7 +38,7 @@
     margin-right: 10px;
     background-size: contain;
     background-position: center;
-    transition: fill var(--time-transition);   
+    transition: fill $time-transition;   
 }
 
 .link-connection{
@@ -53,7 +53,7 @@
 
 .link-connection:hover > .envelope-svg,
 .link-connection:hover > .smartphone-svg {
-    fill: var(--accent-cl);
+    fill: $accent-cl;
 }
 
 .top-line {

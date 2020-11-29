@@ -48,7 +48,7 @@
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    background-color: var(--bg-dark-cl);
+    background-color: $bg-dark-cl;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
 }
@@ -60,19 +60,22 @@
     height: 50px;
     border-radius: 4px;
     margin-left: 12px;
-    background-color: var(--accent-cl);
+    background-color: $accent-cl;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .text-btn-futer {
     display: block;
     padding-left: 29px;
-    color: var(--wight-text-cl);
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    color: $wight-text-cl;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     text-align: left;
     letter-spacing: 0.06em;
+
 }
 
 .text-btn-futer::after {
@@ -91,7 +94,7 @@
 }
 
 .part-logo-futer {
-    color: var(--wight-text-cl);
+    color: $wight-text-cl;
 }
 
 .link-mail {
