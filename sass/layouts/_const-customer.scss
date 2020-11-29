@@ -20,6 +20,16 @@
     border: 1px solid $icons-color;
     border-radius: 4px;
     transition: border $time-transition;
+
+
+    &:hover .item-logo,
+    &:focus .item-logo {
+        fill: $accent-cl;
+    }
+
+    &:hover {
+        border: 1px solid  $accent-cl;
+    } 
 }
 
 .list-const-customer {
@@ -27,14 +37,8 @@
     justify-content: space-between;
 }
 
-.link-const-customer:hover .item-logo,
-.link-const-customer:focus .item-logo {
-    fill: $accent-cl;
-}
 
-.link-const-customer:hover {
-    border: 1px solid  $accent-cl;
-}
+
 
 
 .item-logo {

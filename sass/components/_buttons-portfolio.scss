@@ -15,23 +15,21 @@
     transition: background-color $time-transition;
 }
 
-.but-list .btn:hover,
-.btn:focus{
-    background-color: $accent-cl;
-    cursor: pointer;
-}
+
 
 .but-list {
     display: flex;
     justify-content: center;
     padding-top: 94px;
-}
 
 
-.text-but-portfolio:hover,
-.text-but-portfolio:focus{
-    color: $wight-text-cl;
+    &.btn:hover,
+    &.btn:focus {
+        background-color: $accent-cl;
+        cursor: pointer;
+    }
 }
+
 
 .text-but-portfolio {
     display: inline-block;
@@ -47,4 +45,9 @@
     padding-bottom: 6px;
     padding-left: 22px;
     transition: color $time-transition;
+
+    &.text-but-portfolio:hover,
+    &.text-but-portfolio:focus {
+        color: $wight-text-cl;
+    }
 }

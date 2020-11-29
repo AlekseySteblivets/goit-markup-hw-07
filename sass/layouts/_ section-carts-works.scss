@@ -17,32 +17,32 @@
     border: 1px solid $bg-section-cl;
     box-sizing: border-box;
     transition: box-shadow $time-transition;
+   
+
+        /* для каждого третьего */
+    &:nth-child(3n + 1) {
+        margin-left: 0px;
     }
 
-    /* для каждого третьего */
-.work-item:nth-child(3n + 1) {
-    margin-left: 0px;
-}
+    /*для первых трех элементов*/
+    &:nth-child(-n + 3) {
+        margin-top: 0px;
+    }
 
-/*для первых трех элементов*/
-.work-item:nth-child(-n + 3) {
-    margin-top: 0px;
+    &:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
-
-.work-item:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .for-position {
     position: relative;
     overflow: hidden;
-}
 
-.for-position:hover .actions {
-    overflow: visible;
-    transform: translateY(0px);
-}
 
+    &:hover .actions {
+        overflow: visible;
+        transform: translateY(0px);
+    }
+}
 .actions {
     position: absolute;
     width: 100%;

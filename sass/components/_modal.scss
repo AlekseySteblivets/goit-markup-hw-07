@@ -41,7 +41,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 30px;
     height: 30px;
+
+    &:hover .close-icon {
+        fill: $accent-cl;
+    }
 }
+
 
 .close-icon {
     background-repeat: no-repeat;
@@ -52,9 +57,6 @@
     transition: fill $time-transition;
 }
 
-.close-btn:hover .close-icon {
-    fill: $accent-cl;
-}
 
 .title-modal {
     font-weight: bold;

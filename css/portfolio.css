@@ -16,7 +16,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
 }
 
 html {
@@ -39,12 +39,11 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
-  transition: color var(--time-transition);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
-  color: var(--accent-cl);
+.link:focus, .link:hover {
+  color: #2196F3;
 }
 
 /* стандартный набор стилей для container, еще можно добавить padding left b right
@@ -65,19 +64,13 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-cl);
+  color: #212121;
   border-radius: 4px;
-  background-color: var(--bg-section-cl);
+  background-color: #EEEEEE;
   padding: 0px;
   margin-right: 8px;
   border: 0px;
-  transition: background-color var(--time-transition);
-}
-
-.but-list .btn:hover,
-.btn:focus {
-  background-color: var(--accent-cl);
-  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .but-list {
@@ -86,9 +79,9 @@ img {
   padding-top: 94px;
 }
 
-.text-but-portfolio:hover,
-.text-but-portfolio:focus {
-  color: var(--wight-text-cl);
+.but-list.btn:hover, .but-list.btn:focus {
+  background-color: #2196F3;
+  cursor: pointer;
 }
 
 .text-but-portfolio {
@@ -99,23 +92,27 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-cl);
+  color: #212121;
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  transition: color var(--time-transition);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-but-portfolio.text-but-portfolio:hover, .text-but-portfolio.text-but-portfolio:focus {
+  color: #FFFFFF;
 }
 
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: var(--icons-color);
-  transition: fill var(--time-transition);
+  fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .futer-social .social-icons-svg {
-  fill: var(--wight-text-cl);
+  fill: #FFFFFF;
 }
 
 .social-icons {
@@ -135,20 +132,20 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  transition: background-color var(--time-transition);
-}
-
-.futer-social .social-icons-border {
-  background-color: var(--bg-futer-icons-link);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-border:hover .social-icons-svg,
 .social-icons-border:focus .social-icons-svg {
-  fill: var(--wight-text-cl);
+  fill: #FFFFFF;
 }
 
 .social-icons-border:hover {
-  background-color: var(--accent-cl);
+  background-color: #2196F3;
+}
+
+.futer-social .social-icons-border {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* класс для ссылок по страницам в навигации*/
@@ -158,16 +155,16 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-cl);
+  color: #212121;
+  margin-right: 50px;
+}
+
+.menu-link:not(:last-child) {
   margin-right: 50px;
 }
 
 .menu {
   display: inline-flex;
-}
-
-.menu-link:not(:last-child) {
-  margin-right: 50px;
 }
 
 .menu-link-studio::after {
@@ -178,7 +175,7 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-cl);
+  background-color: #2196F3;
 }
 
 .menu-link-portfolio::after {
@@ -189,7 +186,7 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-cl);
+  background-color: #2196F3;
 }
 
 /* класс для заголовков секций h2 на странице СТУДИО */
@@ -200,7 +197,7 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-cl);
+  color: #212121;
   margin-bottom: 50px;
   margin-top: 0px;
   padding-top: 94px;
@@ -240,7 +237,7 @@ img {
   margin-right: 10px;
   background-size: contain;
   background-position: center;
-  transition: fill var(--time-transition);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .smartphone-svg {
@@ -250,7 +247,7 @@ img {
   margin-right: 10px;
   background-size: contain;
   background-position: center;
-  transition: fill var(--time-transition);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-connection {
@@ -264,7 +261,7 @@ img {
 
 .link-connection:hover > .envelope-svg,
 .link-connection:hover > .smartphone-svg {
-  fill: var(--accent-cl);
+  fill: #2196F3;
 }
 
 .top-line {
@@ -277,6 +274,14 @@ img {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
+}
+
+.futer-social .social-icons-svg {
+  fill: #FFFFFF;
+}
+
+.futer-social .social-icons-border {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .futer-contacts {
@@ -323,7 +328,7 @@ img {
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--bg-dark-cl);
+  background-color: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
@@ -335,14 +340,14 @@ img {
   height: 50px;
   border-radius: 4px;
   margin-left: 12px;
-  background-color: var(--accent-cl);
+  background-color: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .text-btn-futer {
   display: block;
   padding-left: 29px;
-  color: var(--wight-text-cl);
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -365,7 +370,7 @@ img {
 }
 
 .part-logo-futer {
-  color: var(--wight-text-cl);
+  color: #FFFFFF;
 }
 
 .link-mail {
@@ -377,7 +382,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--wight-text-cl);
+  color: #FFFFFF;
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
@@ -417,18 +422,18 @@ img {
   margin-top: 30px;
   text-align: start;
   flex-basis: calc(100% / 3 - 20px);
-  background: var(--wight-text-cl);
-  border: 1px solid var(--bg-section-cl);
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
   box-sizing: border-box;
-  transition: box-shadow var(--time-transition);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* для каждого третьего */
+  /*для первых трех элементов*/
 }
 
-/* для каждого третьего */
 .work-item:nth-child(3n + 1) {
   margin-left: 0px;
 }
 
-/*для первых трех элементов*/
 .work-item:nth-child(-n + 3) {
   margin-top: 0px;
 }
@@ -451,16 +456,16 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: var(--accent-cl);
+  background-color: #2196F3;
   top: 0;
   left: 0;
   margin: 0;
-  color: var(--wight-text-cl);
+  color: #FFFFFF;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.56;
   transform: translateY(100%);
-  transition: var(--time-transition);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: left;
 }
 
@@ -483,7 +488,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-text-cl);
+  color: #212121;
   margin-bottom: 4px;
   margin-top: 0px;
 }
@@ -493,7 +498,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -504,15 +509,15 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-cl);
+  color: #2196F3;
 }
 
 .part-logo {
-  color: var(--title-text-cl);
+  color: #212121;
 }
 
 .dark-bg {
-  background-color: var(--bg-dark-cl);
+  background-color: #2F303A;
   margin-left: auto;
   margin-right: auto;
 }

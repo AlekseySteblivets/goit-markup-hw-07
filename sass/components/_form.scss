@@ -23,6 +23,7 @@
     transition: border-color $time-transition;
 }
 
+
 .form-textarea {
     display: inline-block;
     /* resize: none; */
@@ -63,6 +64,14 @@
     height: 1px;
     width: 1px ;
     overflow: hidden;
+
+    &:checked + .checkbox-icon {
+        background-color: $accent-cl;
+        background-image: url(../images/check-active.svg);
+        /* fill: $accent-cl; */
+        background-size: cover;
+        
+    }
 }
 
 .checkbox-icon {
@@ -77,13 +86,7 @@
     z-index: -1;
 }
 
-.check-class:checked + .checkbox-icon {
-    background-color: $accent-cl;
-    background-image: url(../images/check-active.svg);
-    /* fill: $accent-cl; */
-    background-size: cover;
-    
-}
+
 
 .check-label {
     display: inline-block;

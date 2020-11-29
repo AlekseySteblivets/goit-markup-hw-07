@@ -28,15 +28,13 @@ img {
     text-decoration: none;
     color: inherit;
     transition: color $time-transition;
-}
 
-.link:hover,
-.link:focus
-/* .btn:hover,
-.btn:focus { */ {
-    color: $accent-cl;
-}
 
+    &:focus,
+    &:hover {
+        color: $accent-cl;
+    }
+}
 
 
 /* стандартный набор стилей для container, еще можно добавить padding left b right

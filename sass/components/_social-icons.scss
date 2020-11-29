@@ -14,10 +14,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-}
 
-.social-icons:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .social-icons-border {
@@ -28,18 +28,20 @@
     width: 44px;
     height: 44px;
     transition: background-color $time-transition;  
-    
+
+
+    &:hover .social-icons-svg,
+    &:focus .social-icons-svg {
+        fill: $wight-text-cl;
+    }
+
+    &:hover {
+        background-color: $accent-cl;
+    }
 }
+
 .futer-social .social-icons-border {
     background-color: $bg-futer-icons-link ;
 
 }
 
-.social-icons-border:hover .social-icons-svg,
-.social-icons-border:focus .social-icons-svg {
-    fill: $wight-text-cl;
-}
-
-.social-icons-border:hover {
-    background-color: $accent-cl;
-}

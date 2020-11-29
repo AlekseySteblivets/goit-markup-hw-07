@@ -2,7 +2,16 @@
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+
+    & .social-icons-svg {
+        fill: $wight-text-cl; 
+    }
+
+    & .social-icons-border {
+        background-color: $bg-futer-icons-link ;
+    }
 }
+
 .futer-contacts {
     display: flex;
     flex-direction: column;
@@ -20,11 +29,11 @@
 
 .item-icons-futer {
     margin-right: 10px;
-}
-.item-icons-futer:last-child {
-    margin-right: 0px;
-}
 
+    &:last-child {
+        margin-right: 0px;
+    }
+}
 .futer-input-section {
     display: flex;
     flex-direction: column;
@@ -76,21 +85,21 @@
     text-align: left;
     letter-spacing: 0.06em;
 
-}
 
-.text-btn-futer::after {
-    position: absolute;
-    right: 28px;
-    top: 13px;
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/iconsend.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translateX(50%);
-    
+    &::after {
+        position: absolute;
+        right: 28px;
+        top: 13px;
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url(../images/iconsend.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translateX(50%);
+        
+    }
 }
 
 .part-logo-futer {
@@ -100,3 +109,4 @@
 .link-mail {
     margin-bottom: 9px;
 }
+
