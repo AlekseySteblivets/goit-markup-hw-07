@@ -33,7 +33,11 @@
     &:last-child {
         margin-right: 0px;
     }
+    &:hover .social-icons-border {
+        background-color: $accent-cl;
+    }
 }
+
 .futer-input-section {
     display: flex;
     flex-direction: column;

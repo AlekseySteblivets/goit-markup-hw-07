@@ -13,6 +13,13 @@
     margin-right: 8px;
     border: 0px;
     transition: background-color $time-transition;
+    &:hover,
+    &:focus {
+        background-color: $accent-cl;
+        cursor: pointer;
+    }
+
+
 }
 
 
@@ -21,15 +28,9 @@
     display: flex;
     justify-content: center;
     padding-top: 94px;
-
-
-    &.btn:hover,
-    &.btn:focus {
-        background-color: $accent-cl;
-        cursor: pointer;
-    }
 }
 
+    
 
 .text-but-portfolio {
     display: inline-block;
@@ -46,8 +47,8 @@
     padding-left: 22px;
     transition: color $time-transition;
 
-    &.text-but-portfolio:hover,
-    &.text-but-portfolio:focus {
+    &:hover,
+    &:focus {
         color: $wight-text-cl;
     }
 }
